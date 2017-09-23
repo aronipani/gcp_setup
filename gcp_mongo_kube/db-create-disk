@@ -1,0 +1,6 @@
+gcloud compute disks create \
+  --project "{GCP_PROJECT}" \
+  --zone "{GCP_ZONE}" \
+  --size 10GB \
+  "{GCP_DISK_NAME}"
+
